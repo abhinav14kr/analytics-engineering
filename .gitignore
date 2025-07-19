@@ -1,0 +1,20 @@
+# Ignore all virtual environments
+**/venv/
+**/.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VSCode or PyCharm configs
+.vscode/
+.idea/
+
+# Optional Python exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
+.DS_Store
