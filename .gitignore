@@ -18,3 +18,20 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .DS_Store
+
+
+
+target/
+dbt_packages/
+logs/
+myenv/
+
+# Ignore all virtual environments
+**/venv/
+**/.venv/
+
+
+# Ignore Python virtual environments
+dbt/myenv/
+**/venv/
+
